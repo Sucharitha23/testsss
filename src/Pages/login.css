@@ -1,0 +1,36 @@
+.div-login{
+    width:400px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10vh;
+    background-color: rgba(187, 175, 152, 0.068);
+} 
+
+input{
+    width: 95%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background-color: gray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
