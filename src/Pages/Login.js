@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import './login.css';
+import {Link} from 'react-router-dom'
+import {logo as ReactComponent}from '../Images/logo.png'
+
 class Login extends Component{
     state={
         email:'',
@@ -17,15 +20,17 @@ class Login extends Component{
     }
     render(){
         return(
-            <div className='div-login'>
-                <div>
-                    <form onSubmit = {this.handleSubmit}>
-                        <input type='email' name='email' placeholder='USER ID' required onChange={this.handleChange}/>
-                        <input type='password' name='pwd' placeholder='PASSWORD' required onChange={this.handleChange}/>
-                        <button onSubmit={this.handleSubmit}>LOGIN</button>
+            <div className='page'>
+            <h1> Meet Assist</h1>
+            <div className="main">
+                      <h2>LOGIN</h2>
+                      <form onSubmit={this.handleSubmit}>
+                    <input type="email" placeholder="USER ID" name="email" required={this.handleChange}/>
+                    <input type="password" placeholder="PASSWORD" name="pwd" required={this.handleChange}/>
+                    <button onSubmit={this.handleSubmit}>SIGN IN</button>
                     </form>
-                </div>
-            </div>
+            </div> 
+            </div>      
         )
     }
 }

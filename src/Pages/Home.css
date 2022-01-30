@@ -1,0 +1,15 @@
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.body{
+    padding-bottom: 2.5rem;
+}
+
+.footer-pin{
+    left:0;
+    bottom:0;
+    right :0;
+    position: absolute;
+}
